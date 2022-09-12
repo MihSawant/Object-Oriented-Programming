@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="oops-concepts" />
+        <module name="Object-Oriented-Programming" />
       </profile>
     </annotationProcessing>
   </component>

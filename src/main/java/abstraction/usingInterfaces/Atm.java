@@ -1,4 +1,4 @@
-package abstraction;
+package abstraction.usingInterfaces;
 public class Atm implements TransactionMachine{
 
     private static final double balance = 5000;

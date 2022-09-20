@@ -11,9 +11,18 @@ public class Hotel {
         // Here we can see that Staff (Chef) cannot serve food
         System.out.println("Cooking Begun");
         s1.cookFood();
+
         // So here the Liskov Substitution Principal, and need to re-implement the code
         System.out.println("Cooking Completed");
         s1.serveFood();
+
+        HotelStaff chef2 = new HotelChef("Nikunj");
+        HotelStaff waiter2 = new HotelWaiter("Umesh");
+
+        chef2.cookFood();
+        waiter2.serveFood();
+
+
 
     }
 }

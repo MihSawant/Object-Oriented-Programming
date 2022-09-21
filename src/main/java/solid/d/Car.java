@@ -9,6 +9,8 @@ public class Car {
         petrolEngine.engineType();
     }
 
+    public Car(){}
+
     public static void main(String[] args) {
         new Car(new PetrolEngine());
     }

@@ -16,6 +16,10 @@ public class Toast {
             System.out.println("Enjoy it with a Cup of Tea :)");
         }
     }
+    // order depends upon the placement in class file and all will exec prior to constructor
+    static {
+        System.err.println("Sorry to keep you waiting");
+    }
 
     public static void main(String[] args) {
         new Toast();

@@ -29,6 +29,9 @@ public class StringMethods {
 
         System.out.println("Does s starts with h: "+s.startsWith("h"));
         System.out.println("Does s2 starts with e: "+s2.startsWith("e"));
+
+        String cleaned = s2.replace(" ", "");
+        System.out.println("Replace spaces of S2 string: "+cleaned);
     }
 
 }

@@ -10,7 +10,7 @@ public class BankAccount {
 
     // constructors use other constructors to initialize values
     public BankAccount(String accountHolderName){
-        new BankAccount(accountHolderName, 0.0);
+        this(accountHolderName, 0.0);
     }
 
     public BankAccount(String accountHolderName, double openingAmount){
